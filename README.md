@@ -17,4 +17,4 @@ An autocomplete system that uses the output of recent commands as autocomplete s
 * Capture the stdout of forked shell, forward it stdout, statefully parse it to understand what is plain text output and what's control codes, etc, and store keywords in a good data structure
 * Forward all stdin to forked shell
 * Use the contents of the data structure as suggestions for autocomplete
-* Serve these suggestions via some RPC mechanism, files on disk, or UDS, or ???
+* Serve these suggestions via some RPC mechanism, files on disk, or UDS, or LSP, or ???
