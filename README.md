@@ -18,3 +18,4 @@ An autocomplete system that uses the output of recent commands as autocomplete s
 * Forward all stdin to forked shell
 * Use the contents of the data structure as suggestions for autocomplete
 * Serve these suggestions via some RPC mechanism, files on disk, or UDS, or LSP, or ???
+* Provide easy configuration for bash/zsh programmable completion to query via RPC mechanism for autocomplete suggestions
